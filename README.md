@@ -7,30 +7,55 @@ This is a real-time chat application built with Node.js, Express, and Sequelize.
 ## Project Structure
 
 src/
+
 ├── app.ts # Main application file
+
 ├── config.ts # Configuration settings
+
 ├── controllers/ # Route handlers
+
 │ ├── auth.controller.ts
+
 │ ├── ping.controller.ts
+
 │ ├── room.controller.ts
+
 │ ├── userRoom.controller.ts
+
 ├── database.ts # Database connection setup
+
 ├── middlewares/ # Middleware functions
+
 │ └── auth.middleware.ts
+
 ├── models/ # Database models
+
 │ ├── ping.model.ts
+
 │ ├── room.model.ts
+
 │ ├── user.model.ts
+
 │ └── userRoom.model.ts
+
 ├── routes/ # API routes
+
 │ ├── auth.route.ts
+
 │ ├── ping.route.ts
+
 │ ├── room.route.ts
+
 │ └── userRoom.route.ts
+
 ├── services/ # WebSocket service
+
 │ └── websocket.service.ts
+
 ├── controllers/ # Controllers for handling requests
+
 │ └── auth.controller.ts
+
 └── server.ts # Server setup
 
 ## Prerequisites
@@ -44,7 +69,7 @@ src/
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/yourproject.git
+   git clone https://github.com/imthiazSD/rooms-backend-bk.git
    cd yourproject
    ```
 
